@@ -1,0 +1,61 @@
+.btn-direktorat {
+    background-color: #e1d9ff;
+    color: #8c75e3;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: solid #8c75e3 2px;
+}
+
+.btn-kerjasama {
+    background-color: #fde5d9;
+    color: #f36f2a;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: solid #f36f2a 2px;
+}
+
+.btn-direktorat:hover {
+    background-color: #8c75e3;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: solid #8c75e3 2px;
+}
+
+.btn-kerjasama:hover {
+    background-color: #f36f2a;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: solid #f36f2a 2px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #svgContainer {
+    width: 100%;
+    height: calc(100% - 50px); /* Adjust this value to match the height of your navbar */
+    overflow: auto;
+    position: fixed;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 100px; /* Adjust this value to match the height of your navbar */
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  svg {
+    display: flex;
+    margin: auto;
+  }
+  
